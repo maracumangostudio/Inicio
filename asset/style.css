@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .links a.active {
     color: #f8aa22;
@@ -165,7 +165,6 @@ body {
     max-width: 0;
     white-space: nowrap;
     overflow: hidden;
-    gap: 10px;
     transition: 0.3s ease;
 }
 
@@ -176,6 +175,7 @@ body {
 
 .whatsapp-btn:hover .whatsapp-text {
     max-width: 140px;
+    padding-right: 10px;
 }
 
 @media (max-width: 750px) {
