@@ -21,6 +21,7 @@ body {
     gap: 20%;
     align-items: center;
 }
+
 .logo img {
     height: 80px;
     width: auto;
@@ -32,8 +33,9 @@ body {
 .links a {
     color: #023a51;
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
+    font-style: normal;
     font-size: 19px;
     transition: color 0.3s ease;
 }
@@ -126,6 +128,8 @@ body {
 .hamburger.active span:nth-child(3) {
     transform: rotate(-45deg) translate(6px, -6px);
 }
+
+
 @media (max-width: 750px) {
     .links {
         display: flex;
